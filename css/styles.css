@@ -557,7 +557,6 @@ button {
 
   justify-content: center;
   align-items: flex-start;
-  margin-left: 120px;
 }
 
 .footer-list {
@@ -951,6 +950,10 @@ button {
   margin-bottom: 8px;
 }
 
+.modal-form-field-texterea {
+  margin-bottom: 16px;
+}
+
 .modal-form-description {
   display: block;
   margin-bottom: 4px;
@@ -1045,9 +1048,9 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 16px;
   margin-bottom: 24px;
   
+  transition: color var(--transition-dur-func-btn-hover);
 
   color: var(--modal-form-checkbox-desc-text-color);
   
